@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    background-image: url(img-01.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+header .logo
+{
+  color: #fff ;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
+header .logo:hover {
+    color: #ffa500;
+}
+
+.container {
+    width: 380px;
+    Margin:7% auto;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.3 );
+    box-shadow: 0 0 17px #333;
+}
+
+.header {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.header h1 {
+    color: orange;
+    font-size: 45px;
+    margin-bottom: 0ch80px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input, button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main button {
+    padding-left: 0;
+    background-color: orange;
+    letter-spacing: 1px;
+    font-weight: bold;
+   
+}
+
+.main button:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #eed29f;
+}
+.main input:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #fddfa8;
+}
+
+.main span {
+    position: relative;
+}
+
+.linked a {
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 15px;
+    margin-bottom: 70px;
+    
+    
+}
+
+.linked a:hover {
+    color: #fff;
+}
